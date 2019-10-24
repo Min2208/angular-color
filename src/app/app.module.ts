@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PickColorComponent } from './pick-color/pick-color.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PickColorComponent
   ],
   imports: [
     BrowserModule,
